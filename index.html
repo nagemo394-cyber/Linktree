@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>SAC</title>
     <link rel="icon" type="image/png" href="https://i.ibb.co/2YdRYW5P/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -337,6 +340,25 @@
 
         /* Responsive design */
         @media (max-width: 600px) {
+            body {
+                font-family: 'Poppins', sans-serif !important;
+            }
+            
+            body[dir="rtl"] {
+                font-family: 'Tajawal', sans-serif !important;
+            }
+            
+            body[dir="rtl"] *,
+            body[dir="rtl"] h1,
+            body[dir="rtl"] .subtitle,
+            body[dir="rtl"] .tagline,
+            body[dir="rtl"] .link-button span,
+            body[dir="rtl"] .footer,
+            body[dir="rtl"] .footer p,
+            body[dir="rtl"] .lang-btn {
+                font-family: 'Tajawal', sans-serif !important;
+            }
+            
             .container {
                 padding: 2.5rem 1.8rem;
                 border-radius: 20px;
@@ -395,7 +417,7 @@
         <!-- Logo -->
         <div class="logo-container">
             <div class="logo">
-                <img src="https://i.ibb.co/2YdRYW5P/logo.png" alt="KFUPM Logo">
+                <img src="https://i.ibb.co/9ZJXZyQ/kfupm-logo.png" alt="KFUPM Logo">
             </div>
         </div>
 
